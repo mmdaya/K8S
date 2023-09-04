@@ -4,7 +4,7 @@ metadata:
   name: my-firts-pod
 spec:
   containers:
-    - name: nignx
-      image: nignx
+    - name: nginx
+      image: nginx
       ports:
         - containerPort: 80
