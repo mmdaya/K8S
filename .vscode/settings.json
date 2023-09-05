@@ -1,6 +1,12 @@
 {
     "yaml.schemas": {
-        "kubernetes://schema/v1@pod": "file:///g%3A/My%20Drive/GIT_Repos/K8S/simple_pod.yaml"
+        "kubernetes://schema/v1@pod": [
+            "file:///g%3A/My%20Drive/GIT_Repos/K8S/simple_pod.yaml"
+        ],
+        "kubernetes://schema/apps/v1@deployment": [
+            "file:///g%3A/My%20Drive/GIT_Repos/K8S/deployment_1st_example.yaml",
+            "file:///g%3A/My%20Drive/GIT_Repos/K8S/deployment_1st_try.yaml"
+        ]
     },
     "vs-kubernetes": {
         "disable-linters": ["resource-limits"]
