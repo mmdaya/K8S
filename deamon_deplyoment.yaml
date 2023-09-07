@@ -4,6 +4,7 @@ metadata:
   name: nginx-dep
   labels:
     app: my-nginx
+  namespace: mypod
 spec:
   replicas: 2
   selector:
@@ -26,6 +27,7 @@ metadata:
   name: nginx-daemonset1
   labels:
     app: my-nginx
+  namespace: mypod
 spec:
   selector:
     matchLabels:
@@ -47,6 +49,7 @@ metadata:
   name: nginx-daemonset2
   labels:
     app: my-nginx
+  namespace: mypod    
 spec:
   selector:
     matchLabels:
