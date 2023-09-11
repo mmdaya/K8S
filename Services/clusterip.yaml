@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Service
 metadata:
   name: my-cluster-ip
+  namespace: mypod
 spec:
   selector:
     app: nginx
