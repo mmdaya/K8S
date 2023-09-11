@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name: my-cluster-ip
+spec:
+  selector:
+    app: nginx
+  ports:
+  - port: 8090
+    targetPort: 80

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-dep
   labels:
-    app: my-nginx
+    app: nginx
   namespace: mypod
 spec:
   replicas: 2
@@ -26,7 +26,7 @@ kind: DaemonSet
 metadata:
   name: nginx-daemonset1
   labels:
-    app: my-nginx
+    app: nginx
   namespace: mypod
 spec:
   selector:

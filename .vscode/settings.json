@@ -6,7 +6,8 @@
         "kubernetes://schema/apps/v1@deployment": [
             "file:///g%3A/My%20Drive/GIT_Repos/K8S/deployment_1st_example.yaml",
             "file:///g%3A/My%20Drive/GIT_Repos/K8S/deployment_1st_try.yaml",
-            "file:///g%3A/My%20Drive/GIT_Repos/K8S/dep.yaml"
+            "file:///g%3A/My%20Drive/GIT_Repos/K8S/dep.yaml",
+            "file:///g%3A/My%20Drive/GIT_Repos/K8S/Services/clusterip.yaml"
         ]
     },
     "vs-kubernetes": {
