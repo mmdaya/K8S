@@ -28,7 +28,7 @@ metadata:
   
 spec:
   selector:
-    app: nginx
+    app: ip-app
   ports:
    - name: http
      port: 8090
