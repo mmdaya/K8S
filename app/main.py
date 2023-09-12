@@ -18,4 +18,4 @@ def health():
         return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
 if __name__ == '_main_':
-        app.run(host="0.0.0.0", port="8090")
+        app.run(host="0.0.0.0", port="8080")
