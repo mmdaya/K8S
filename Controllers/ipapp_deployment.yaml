@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ip_app
+  name: ip-app
   labels:
-    app: ip_app
+    app: ip-app
   namespace: mypod
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: ip_app   
+      app: ip-app   
   template:
     metadata:
       labels:
-        app: ip_app
+        app: ip-app
     spec:
       containers:
-        - name: ip_app
+        - name: ip-app
           image: dayashankarmm/my_image:latest
 
           ports:
