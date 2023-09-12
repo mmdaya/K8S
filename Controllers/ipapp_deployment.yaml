@@ -33,4 +33,4 @@ spec:
    - name: http
      port: 8080
      targetPort: 8080
-     nodePort: 8090
+     nodePort: 30028
