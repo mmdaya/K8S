@@ -1,0 +1,29 @@
+# ClusterIP
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-cluster-ip
+spec:
+  type: ClusterIP
+  selector:
+    app: ip-app
+  ports:
+   - name: http
+     port: 8080
+     targetPort: 8080
+     
+---
+# Node Port
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-node-ip
+spec:
+  type: NodePort
+  selector:
+    app: ip-app
+  ports:
+   - name: http
+     port: 8080
+     targetPort: 8080
+     nodePort: 30028
