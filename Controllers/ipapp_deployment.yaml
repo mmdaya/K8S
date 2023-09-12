@@ -4,7 +4,7 @@ metadata:
   name: ip-app
   labels:
     app: ip-app
-  namespace: mypod
+  
 spec:
   replicas: 2
   selector:
@@ -25,7 +25,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-cluster-ip
-  namespace: mypod
+  
 spec:
   selector:
     app: nginx
